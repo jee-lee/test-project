@@ -4,7 +4,9 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "test:api": "mocha"
+    "test:api": "mocha",
+    "test:ui": "playwright test",
+    "test": "mocha && playwright test"
   },
   "author": "developer@jeemail.com",
   "license": "ISC",

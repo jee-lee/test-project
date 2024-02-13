@@ -37,5 +37,6 @@ module.exports = {
   rules: {
     'max-len': [1, { code: 140 }],
     'import/extensions': 0,
+    'import/no-extraneous-dependencies': 0,
   },
 };
